@@ -6,7 +6,7 @@
 /*   By: jcurtido <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 18:01:29 by jcurtido          #+#    #+#             */
-/*   Updated: 2024/11/13 16:24:22 by jcurtido         ###   ########.fr       */
+/*   Updated: 2025/01/17 16:42:42 by jcurtido         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,8 @@ int		ft_isascii(int c);
 int		ft_isprint(int c);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
+char	*ft_str_toupper(char *str);
+char	*ft_str_tolower(char *str);
 
 // Funciones de manipulación de memoria
 void	*ft_memset(void *s, int c, size_t n);
@@ -86,8 +88,8 @@ void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
 // Funciones printf
-int	ft_printf(char const *format, ...);
-int	split_check_variables(char c, va_list args);
+int		ft_printf(char const *format, ...);
+int		split_check_variables(char c, va_list args);
 size_t	is_var(char c);
 
 // Printf writers
