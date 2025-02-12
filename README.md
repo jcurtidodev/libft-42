@@ -80,7 +80,7 @@ No tiene dependencias externas, pero se recomienda incluir la librería en proye
 
 Para usar la librería **libft**, simplemente clona el repositorio y compílalo:
 ```bash
-git clone https://github.com/tuusuario/libft.git
+git clone https://github.com/jcurtidodev/libft-42.git
 cd libft
 make
 ```
